@@ -1,5 +1,7 @@
-function loadHomePage(){
-alert("home page loaded");
-}
+
+
+
+
+function loadHomePage(){}
 
 export default loadHomePage;

@@ -1,0 +1,74 @@
+/* external font styesl*/
+.kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  /* end font styles*/
+
+
+
+body {
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 15% 15% 35% 35%;
+    background-image: linear-gradient(90deg, rgb(20, 34, 227), rgb(198, 120, 232));
+}
+
+.title{
+    grid-column-start: 2;
+    font-size:4em;
+    text-align: center;
+}
+.todayDate{
+    font-size: 2em;
+}
+#hamburger-menu {
+    background-color: #b34de2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 15vh;
+    padding: 20px;
+    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+#hamburger-menu a {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+#hamburger-btn {
+    font-size: 4em;
+    cursor: pointer;
+    background-color: #bb5df1;
+    border-radius: 15%;
+}
+
+.leftSideMenu{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
